@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E2eys+me5vSzDXHSV0gNe+2dGdkFKqHfvGweDmwtPd0InbEhZgy1j32y+yw5ay2Vwz9kb4ogawICPGGRwIBp+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Fibonacci\\Fibonacci.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\arile\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\arile\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\arile\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

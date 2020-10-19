@@ -1,0 +1,50 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Demo\\Demo.csproj",
+    "projectName": "Demo",
+    "projectPath": "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Demo\\Demo.csproj",
+    "outputPath": "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Demo\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "net50"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp5.0": {
+        "projectReferences": {
+          "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Fibonacci\\Fibonacci.csproj": {
+            "projectPath": "C:\\Users\\arile\\Desktop\\Cours Master\\M2\\Dot.net\\dotnet-fibonacci\\src\\Fibonacci\\Fibonacci.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp5.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.1.20452.10\\RuntimeIdentifierGraph.json"
+    }
+  }
+}
