@@ -13,6 +13,17 @@ steps:
     packageType: 'sdk'
     version: '5.0.100-rc.1.20452.10'
     includePreviewVersions: true
+
+- task: SonarCloudPrepare@1
+  inputs:
+    SonarCloud: 'SonarCloud'
+    organization: 'arilesstir'
+    scannerMode: 'CLI'
+    configMode: 'manual'
+    cliProjectKey: 'ArilessTir_dotnet-fib'
+    cliProjectName: 'dotnet-fibonacci'
+    cliSources: '.'
+
 - task: DotNetCoreCLI@2
   inputs:
     command: 'test'
@@ -25,6 +36,13 @@ steps:
     publishWebProjects: false
     projects: '**/Demo.csproj'
     arguments: '-r win-x64 --self-contained=true /p:PublishSingleFile=true /p:IncludeNativeLibrariesInSingleFile=true --output $(Build.ArtifactStagingDirectory)'
+
+- task: SonarCloudAnalyze@1
+
+- task: SonarCloudPublish@1
+  inputs:
+    pollingTimeoutSec: '300'
+
 - task: PublishBuildArtifacts@1
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
